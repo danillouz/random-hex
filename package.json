@@ -1,35 +1,35 @@
 {
   "name": "random-hex",
   "description": "Simple utility that generates random hexadecimal colors.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Daniel Illouz",
   "main": "lib/random-hex.js",
   "repository": {
-	"type": "git",
-	"url": "https://github.com/danillouz/random-hex"
+    "type": "git",
+    "url": "https://github.com/danillouz/random-hex"
   },
   "bugs": {
-	"url": "https://github.com/danillouz/random-hex/issues"
+    "url": "https://github.com/danillouz/random-hex/issues"
   },
   "license": "MIT",
   "keywords": [
-	"random",
-	"hex",
-	"hexadecimal",
-	"color",
-	"colors",
-	"generation"
+    "random",
+    "hex",
+    "hexadecimal",
+    "color",
+    "colors",
+    "generation"
   ],
   "devDependencies": {
-	"chai": "^3.2.0",
-	"coveralls": "^2.11.3",
-	"istanbul": "^0.3.17",
-	"jshint": "^2.8.0",
-	"mocha": "^2.2.5"
+    "chai": "^3.2.0",
+    "coveralls": "^2.11.3",
+    "istanbul": "^0.3.17",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
   },
   "scripts": {
-	  "pretest": "jshint lib/*.js",
-	  "test": "mocha",
-	  "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec"
+    "pretest": "jshint lib/*.js",
+    "test": "mocha",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec"
   }
 }

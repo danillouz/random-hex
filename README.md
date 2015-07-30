@@ -5,7 +5,7 @@ Simple utility that generates random hexadecimal colors.
 [![Build Status][travis-image]][travis-url]
 [![Code Status][coverage-image]][coverage-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v1.0.0-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v1.0.2-blue.svg
 [npm-url]: https://www.npmjs.com/package/random-hex
 [travis-image]: https://travis-ci.org/danillouz/random-hex.svg?branch=master
 [travis-url]: https://travis-ci.org/danillouz/random-hex
@@ -20,7 +20,11 @@ Simple utility that generates random hexadecimal colors.
 var randomHex = require('random-hex');
 
 randomHex.generate(); // #f92672
+randomHex.generate(); // #f060ff
 ```
+
+*The `generate` method can be called multiple times and will generate a random hex
+color each time.*
 
 # testing
 `npm test`
